@@ -1,2 +1,2 @@
 # html
-HTML code
+HTML/HyperText MarkUp Language code
