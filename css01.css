@@ -1,4 +1,38 @@
+/*
+ Stylesheet for Windows Azure Test Site 01
+
+ Created: 13:34 21/09/2016
+ Updated: 13:34 21/09/2016
+*/
+
+/* Links */
+
+a:link{
+ text-decoration:none;
+ color:blue;
+}
+
+a:hover{
+ text-decoration:underline;
+ color:red;
+}
+
+/* Main */
+
 body{
- background-color:black;
- color:white; 
+ background-color:white;
+ color:black;
+ font-family:arial,verdana,sans-serif; 
+}
+
+header{
+ text-align:center;
+}
+
+hr{
+ width:50%;
+}
+
+footer{
+ text-align:right;
 }
