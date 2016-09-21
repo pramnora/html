@@ -14,6 +14,7 @@ a:link{
 
 a:hover{
  text-decoration:underline;
+ background-color:white;
  color:red;
 }
 
@@ -26,6 +27,7 @@ body{
 }
 
 header{
+ background-color:gray;
  text-align:center;
 }
 
@@ -34,5 +36,11 @@ hr{
 }
 
 footer{
+ background-color:silver;
  text-align:right;
 }
+
+#idCopyrightMsg{
+ background-color:black;
+ color:white;
+} 
