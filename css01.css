@@ -21,6 +21,8 @@ a:hover{
 /* Main */
 
 body{
+ margin-left:25%;
+ margin-right:25%;
  background-color:white;
  color:black;
  font-family:arial,verdana,sans-serif; 
@@ -31,16 +33,23 @@ header{
  text-align:center;
 }
 
-hr{
- width:50%;
+h2{
+ background-color:silver; 
 }
 
 footer{
- background-color:silver;
+ background-color:gray;
+ color:black;
  text-align:right;
 }
 
 #idCopyrightMsg{
+ font-weight:bold;
  background-color:black;
  color:white;
 } 
+
+.clsTimeDateStamp{
+ font-style:italic;
+ color:white;
+}

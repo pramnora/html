@@ -9,7 +9,7 @@
   <link type="text/css" rel="stylesheet" href="css01.css" />
  
   <title>
-   Azure Test Site 01, index.html
+   Create FREE Website using: Windows Azure/GitHub
   </title>
  
  </head>
@@ -19,28 +19,49 @@
   <header>
 
    <h1>
-    Azure Test Site 01, index.html
+    Create FREE Website using: Windows Azure/GitHub
    </h1>
 
   </header>
 
   <main>
 
+
   <ol>
 
    <li>
-    Sign in to Windows Azure a/c. online; and, authorize Azure to point to your GitHub a/c.; in particular, the 'html' folder repository section...
+    <h2>
+     Set up Windows Azure to point to GitHub Folder/Files Repository
+    </h2>
+    <ul>
+     <li>
+      Sign in to Windows Azure a/c. online
+     </li>
+     <li>
+      authorize Azure to point to your GitHub a/c.
+     </li>
+     <li>
+      select a specific GitHub folder directory: html
+     </li>
+    </ul>
+    <br />
+    An Azure base URL address is created, from which it is possible to serve files stored inside of the GitHub folder you selected:
     <br /><br />
     <ul>
       <li><a href="http://pmr1.azurewebsites.net">http://pmr1.azurewebsites.net</a></li>
      </li>
     </ul>
+    <br />
+    <b>NOTE</b>: The above URL is pointing to the Github 'html' directory/only, 'invisibly'.
    </li>
  
    <br />
 
    <li>
-    Now, we are going to create 2 .html files inside of GitHub on our local machine.
+    <h2>
+     Create files on the local machine
+   </h2>
+    Now, we are going to create 3 files: 2 x [.html]/1 x [.css] files inside of GitHub on our local machine.
     <br /><br />
     Open 'GitHub for Desktop' application on local machine; click 'show the html' repository inside of Explorer; then, use Windows Notepad editor to create 2 [.html] files:- 
     <br /><br />
@@ -50,6 +71,7 @@
       <ul>
        <li>index.html</li>
        <li>nextpage.html</li>
+       <li>css01.css</li>
       </ul>
      </li>
     </ul>
@@ -58,17 +80,23 @@
    <br />
 
   <li>
+   <h2>
+    Upload local machine files into GitHub online
+   </h2>
     Next, we need to reflect the changes made on our GitHub local machine/to our GitHub online a/c.
     <br /><br />
    Open web browser; go to my GitHub online a/c.; find the 'html' folder repository; next, click on [Upload] files...
     <br /><br />
-   ...select the 2 files to upload from off the local hard drive...using 'drag and drop' from Explorer window directly into GitHub online window.
+   ...select the 3 files to upload from off the local hard drive...using 'drag and drop' from Explorer window directly into GitHub online window.
   </li>
 
   <br />
 
   <li>
-    Now, it's possible to view the 2 web pages you uploaded by appending their file names to the Azure URL ending...
+    <h2>
+     View uploaded website pages online
+    </h2>
+    Now, it's possible to view the 3 files you've previously uploaded by appending their file names to the Azure URL ending...
     <br /><br />
     <ul>
      <li>
@@ -76,6 +104,7 @@
       <ul>
        <li><a href="http://pmr1.azurewebsites.net/index.html">http://pmr1.azurewebsites.net/index.html</a></li>
        <li><a href="http://pmr1.azurewebsites.net/nextpage.html">http://pmr1.azurewebsites.net/nextpage.html</a></li>
+       <li><a href="http://pmr1.azurewebsites.net/nextpage.html">http://pmr1.azurewebsites.net/css01.css</a></li>
       </ul>
      </li>
     </ul>
@@ -84,14 +113,18 @@
   </ol>
 
   <p>
-   -(<b>NOTE</b>: It's not necessary to go through step 2...create files on the local machine, first; 
-   <br />you could simply choose to create the files directly inside of GitHub online; and, then, proceed to step 4.)-
+   <b>NOTE(1)</b>: [index.html] files are served up automatically; so, you don't need to type in the full file name; just state the base URL is enough.
+  </p>
+
+  <p>
+   <b>NOTE(2)</b>: It's not necessary to go through step 2...create files on the local machine, first; 
+   <br />you could simply choose to create the files directly inside of GitHub online; and, then, proceed to step 4.
   </p> 
 
   <hr>
 
   <p>
-   Alternatively, you can simply surf to the Azure URL address...
+   Another possible alternative, is you can simply surf to the base Azure URL address...
   </p>
 
     <ul>
@@ -103,6 +136,10 @@
 
   <p>
    ...and, from there just manually type in whichever filenames to go at the end of the URL.
+  </p>
+ 
+  <p>
+   <b>NOTE</b>: If there is no [index.html] available; then, viewers will be shown an error message: 'You do not have permission to view files'. In other words, only known filenames will be served.
   </p>
 
   <footer>
@@ -117,9 +154,10 @@
      &copy,2016, Mr. Paul Ramnora./All rights reserved.
     </span>
     <br />
-    Page created: 12:16 21/09/2016
+    Page created: <span class="clsTimeDateStamp">12:16 21/09/2016</span>
     <br />
-    Last updated: 13:02 21/09/2016
+    Last updated: <span class="clsTimeDateStamp">14:36 21/09/2016</span>
+
    </p>
 
   </footer>
