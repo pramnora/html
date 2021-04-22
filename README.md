@@ -3,15 +3,21 @@ HTML/HyperText MarkUp Language code
 
 ## Intro...
 
-HTML, is the main language used to write web pages...; usually, though, HTML is not written/used all on it's own...instead, it is used with: CSS(decorative effects)/Javascript(programming).
+HTML, is the main language used to write web pages...; usually, though, HTML is not written/used all on it's own...instead, it is used with: 
 
-There is quite a lot you can with HTML itself, though...when it comes to writing plain and simple web pages. HTML includes...
+- CSS(decorative effects...colours/fonts/positioning)
+- Javascript(programming...for web page 'interactivity')
 
+There is quite a lot you can do with HTML itself, though, when it comes to writing plain and simple web pages. For example, HTML includes...
+
+- comments
+- metadata
 - text
-- text effects: b/i/u
+- text effects: b/i/u/strike
+- images: drawings/photos/movies
 - hr/horizontal rule
 - tables
-- iFrames
+- frames: iFrames
 - etc.
 
 ## Links...
