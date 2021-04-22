@@ -14,7 +14,7 @@ There is quite a lot you can do with HTML itself, though, when it comes to writi
 - metadata
 - text
 - text effects: b/i/u/strike
-- images: drawings/photos/movies
+- multi-media: drawings/photos/audio/movies
 - hr/horizontal rule
 - tables
 - frames: iFrames
