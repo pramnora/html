@@ -1,0 +1,49 @@
+/* Stylesheet for...Skillshare: HTML tutorial/Build a web site */
+
+/* links */
+
+a:link{color:blue;text-decoration:none;};
+a:visited{color:purple};
+a:active{color:red;}
+a:hover{color:red;text-decoration:underline;}
+     
+/* rest of web page... */
+
+body{
+ font-family:arial,verdana,sans-serif;
+}
+
+nav{
+ text-align:center;     
+}
+
+.clsSelected{
+ font-weight:bold;   
+ font-style:italic;
+}
+
+header{ 
+ text-align:center;  
+ padding:25px;
+ background-color:black;
+ color:white;
+}
+
+footer{
+ text-align:right;  
+ padding:10px; 
+ background-color:silver;
+ color:gray;
+}   
+
+.clsDateTimeStamp{
+ font-style:italic; 
+ color:red; 
+}         
+
+#idCopyrightMsg{
+ background-color:white;
+ color:black;
+ font-weight:bold;  
+}
+
