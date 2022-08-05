@@ -5,12 +5,16 @@
 a:link{color:blue;text-decoration:none;};
 a:visited{color:purple};
 a:active{color:red;}
-a:hover{background-color:white;color:red;text-decoration:underline;font-weight:bold;}
+a:hover{background-color:white;color:red;text-decoration:none;font-weight:bold;}
      
 /* rest of web page... */
 
+html{
+ margin:0.5cm;background-color:black;
+}
+
 body{
- font-family:arial,verdana,sans-serif;
+ font-family:arial,verdana,sans-serif;background-color:white;
 }
 
 nav{
@@ -27,6 +31,15 @@ header{
  padding:25px;
  background-color:black;
  color:white;
+}
+
+div.pictures{
+ padding:1cm;
+ background-color:pink;
+}
+
+main{
+ padding:1cm;
 }
 
 footer{
