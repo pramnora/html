@@ -18,7 +18,9 @@ body{
 }
 
 nav{
- text-align:center;     
+ background-color:silver; 
+ padding:5px;
+ text-align:center;
 }
 
 .clsSelected{
