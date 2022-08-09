@@ -9,8 +9,12 @@ function writeWebSiteMainH1TitleText(){
                 "</h1>");
 }
 
+function writeSocialMediaPlatforms(){
+
+}
+
 function writeThisWebSiteIsPoweredByMessage(){
- document.write("This web page is <b><i>*powered*</i></b> by the following technologies:"+
+ document.write("This web page is <b><i>*powered*</i></b> by the following technologies:" +
                 "<br />" + 
                 "Desktop PC/Windows 10 Professional/Notepad: HTML/CSS/Javascript");
 }
