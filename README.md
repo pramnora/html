@@ -1,7 +1,7 @@
 # HTML
 HTML/HyperText MarkUp Language code  
 
-To view/interact with the files inside of this HTML repository; then, just click the following link.../-Thank you!
+To both *view/interact* with the files inside of this HTML repository; then, just *click* the following link.../-Thank you!
 
 - https://prg-html.netlify.app
 
