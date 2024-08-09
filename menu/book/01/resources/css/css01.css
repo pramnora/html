@@ -1,0 +1,84 @@
+
+body{
+ margin:0px;
+ border:0px;
+ p:0px;
+ background-color:white;
+ font-family:arial,verdana,sans-serif;
+}   
+
+nav a:link{padding:10px;background-color:white;color:blue;text-decoration:none;}
+a:link{color:blue;text-decoration:none;}
+nav a:hover{border:5px red solid;background-color:yellow;color:red;font-weight:bold;}
+a:hover{color:red;font-weight:bold;}
+a:active{color:orange;}
+a:visited{color:purple;}
+
+nav{
+ background-color:maroon;
+ color:white;
+}
+
+nav p{padding:25px;text-align:center;}
+
+nav a{border:5px white solid;}
+
+header{
+ padding:1px;
+ background-color:maroon;
+ text-align:center;
+}
+
+h1{
+ padding:25px;
+ background-color:silver;
+ color:gray;
+}
+
+p.clsTOC{
+ width:90%;
+ margin:auto;
+ padding:10px;
+ background-color:black;
+ color:white;
+ font-size:100%;
+ font-weight:bold;
+ font-style:italic;
+}
+
+p.clsTOC:before{
+ content:" ";
+}
+
+h2:before{
+ content:"-> ";
+}
+
+h2{
+width:90%;
+margin:auto;
+ padding:10px;
+ background-color:maroon;
+ color:yellow;	
+}
+
+main{
+ padding:25px;
+}
+
+main p{
+ text-indent:1cm;
+}
+
+footer{
+ padding:25px;
+ background-color:silver;
+ color:gray;
+ text-align:center;
+}
+
+.clsDateTimeStamp{
+ background-color:white;
+ color:red;
+ font-style:italic;
+}
